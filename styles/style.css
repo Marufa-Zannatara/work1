@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    .red-text{
+    color: #F00;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.black-text{
+    color: #070211;
+    font-style: normal;
+    line-height: normal;
+    font-size:48px;
+    font-weight:700;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+
+.cover {  
+    background-image: url('../images/BannerImage.png');
+    margin: 40px auto;
+    background-size: cover;
+    background-position: bottom center; 
+    width: 82%;
+    max-width: 1320px;
+    margin-bottom: 50px ;
+    /*fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    
+}
+
+.cover h1{
+
+color: #FFF;
+text-align: center;
+font-family: 'Merriweather', serif;
+font-size: 32px;
+padding-top:100px;
+font-weight: 400;
+margin-bottom:48px;
+
+
+}
+
+.cover p{
+color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+margin-bottom: 40px;
+}
+
+.discount h1{
+text-align: center;
+font-size: 88px;
+font-weight: 700;
+margin-top: 50px ;
+
+}
+
+.discount p {
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+
+}
+.newyear{
+    margin: 20px auto;
+    align-items: center;
+    width: 50%;
+    max-width: 800px;
+    margin-bottom: 50px ;
+}
+
+.midnightparty h1{
+color: #FFF;
+font-family: Merriweather;
+margin: 20px 80px;
+font-size: 54px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; 
+text-align: left;
+letter-spacing: 7.04px;
+}
+
+.midnightparty{
+    display: flex;
+    background-image: url('../images/Vectorrr.png');
+    margin: 40px auto;
+    background-size:cover;
+    background-position: bottom center; 
+    width: 82%;
+    max-width: 1320px;
+    margin-bottom: 50px ;
+}
+.midnightparty p{
+
+margin: 20px 80px;
+color: rgba(255, 255, 255, 0.80);
+text-align: left;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+
+
+}
+
+ .fifty-percent{
+
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+ }
+
+.portfolio{
+
+    margin:50px 140px;
+    width: 75%;
+    max-width: 1320px;
+    margin-bottom: 50px ;
+    text-align: left;
+}
+
+.portfolio-img {
+ display: flex;
+
+}
+.portfolio p{
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.paragraph-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    
+
+}
+.para-align{
+    text-align: center;
+}
+
+.footer{
+    background: #070211;
+    width: 1600px;
+
+    height: 609px;
+}
