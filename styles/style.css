@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+ 
 
     .red-text{
     color: #F00;
@@ -24,14 +25,15 @@
 
 
 .cover {  
+    filter:contrast(110%) brightness(70%); 
     background-image: url('../images/BannerImage.png');
-    margin: 40px auto;
+    margin: 20px auto;
+    padding: 20px;
     background-size: cover;
     background-position: bottom center; 
-    width: 82%;
+    width: 82.5%;
     max-width: 1320px;
     margin-bottom: 50px ;
-    /*fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     
 }
 
@@ -41,9 +43,9 @@ color: #FFF;
 text-align: center;
 font-family: 'Merriweather', serif;
 font-size: 32px;
-padding-top:100px;
+padding-top:50px;
 font-weight: 400;
-margin-bottom:48px;
+margin-bottom:35px;
 
 
 }
@@ -55,7 +57,7 @@ font-family: Merriweather;
 font-size: 72px;
 font-style: normal;
 font-weight: 900;
-margin-bottom: 40px;
+margin-bottom: 30px;
 }
 
 .discount h1{
@@ -73,13 +75,7 @@ font-size: 18px;
 font-weight: 500;
 
 }
-.newyear{
-    margin: 20px auto;
-    align-items: center;
-    width: 50%;
-    max-width: 800px;
-    margin-bottom: 50px ;
-}
+
 
 .midnightparty h1{
 color: #FFF;
@@ -96,26 +92,58 @@ letter-spacing: 7.04px;
 .midnightparty{
     display: flex;
     background-image: url('../images/Vectorrr.png');
-    margin: 40px auto;
+    margin: 0 auto;
     background-size:cover;
     background-position: bottom center; 
-    width: 82%;
+    width: 82.5%;
     max-width: 1320px;
     margin-bottom: 50px ;
 }
 .midnightparty p{
 
-margin: 20px 80px;
-color: rgba(255, 255, 255, 0.80);
-text-align: left;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
+    margin: 20px 70px;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    width: 500px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+
 
 
 }
+
+.midnightparty button{
+  
+    color: #FFF;
+    background-color: #fcb707;
+    margin-left:140px ;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.midnightparty a:hover{
+        color: hotpink;
+        text-decoration: none;
+}
+.midnightparty a{
+        text-decoration: none;
+}
+
+.newyear{
+    margin: 20px auto;
+    align-items: center;
+    width: 50%;
+    max-width: 800px;
+    margin-bottom: 50px ;
+}
+
 
  .fifty-percent{
 
@@ -130,15 +158,26 @@ line-height: 30px;
 
 .portfolio{
 
-    margin:50px 140px;
+    /*margin:50px 140px; */
     width: 75%;
     max-width: 1320px;
-    margin-bottom: 50px ;
     text-align: left;
+    margin: 50px auto;
+    padding: 20px;
+
+
 }
 
+
+
 .portfolio-img {
- display: flex;
+    display: flex;
+    border-color:rgb(34, 255, 0) ;
+    justify-content: space-around;
+    width: 424px;
+    height: 450px;
+    margin-bottom: 24px;
+    border-radius: 16px;
 
 }
 .portfolio p{
@@ -149,6 +188,10 @@ line-height: 30px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+}
+
+.click img:hover{ 
+    filter: brightness(200%);
 }
 
 .paragraph-text{
@@ -164,9 +207,79 @@ line-height: 30px;
     text-align: center;
 }
 
+.subscribe{
+    align-items: center;
+    border-radius: 16px;
+     background: rgba(255, 0, 0, 0.05);
+    width: 82.5%;
+    max-width: 1320px;
+    text-align: left;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.subscribe h1{
+    color: #070211;
+    font-style: normal;
+    line-height: normal;
+    font-size:48px;
+    font-weight:700;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.subscribe p{
+    color: #070211;
+    font-style: normal;
+    line-height: normal;
+    font-size:28px;
+    font-weight:400;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+ 
+.email{
+    display:flex ;
+    margin-left: 360px;
+    margin-right: 366px;
+    height: 40px;
+    
+}
+.sub-btn{
+    
+    background-color: #F00;
+    border-radius: 0px 50px 50px 0px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+}
+
 .footer{
     background: #070211;
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
+    
+}
 
-    height: 609px;
+.foot-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.foot-head{
+    display: flex;
 }
